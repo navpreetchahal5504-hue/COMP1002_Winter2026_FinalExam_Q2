@@ -1,7 +1,7 @@
 document.getElementById("registrationForm").addEventListener("submit", function(event) {
     event.defaultPrevented(); // stops page reload
 
-    // get user name
+    // get users name 
     let name = document.getElementById("name").value;
 
     // display message
